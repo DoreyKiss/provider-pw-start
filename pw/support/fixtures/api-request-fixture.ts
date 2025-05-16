@@ -1,7 +1,7 @@
 import { test as base } from '@playwright/test'
 import { apiRequest as apiRequestFunction } from '../fixture-helpers/plain-functions'
 
-type ApiRequestParams = {
+export type ApiRequestParams = {
     method: 'POST' | 'GET' | 'PUT' | 'DELETE'
     url: string
     baseUrl?: string
@@ -9,7 +9,7 @@ type ApiRequestParams = {
     headers?: Record<string, string>
 }
 
-type ApiRequestResponse<T = unknown> = {
+export type ApiRequestResponse<T = unknown> = {
     status: number
     body: T
 }
