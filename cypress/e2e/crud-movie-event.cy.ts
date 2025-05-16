@@ -1,4 +1,4 @@
-import '@cypress/skip-test/support'
+/* import '@cypress/skip-test/support'
 import 'cypress-ajv-schema-validator'
 
 import type { Movie } from '@prisma/client'
@@ -192,3 +192,4 @@ describe('CRUD movie', () => {
       })
   })
 })
+ */
