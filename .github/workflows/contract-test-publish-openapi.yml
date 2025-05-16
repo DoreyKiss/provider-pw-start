@@ -1,6 +1,6 @@
-# # Once the PR is merged into the main branch,
-# # we publish the provider contract (the OpenAPI spec) to Pact broker.
-# # The schema already got tested in the e2e job.
+# Once the PR is merged into the main branch,
+# we publish the provider contract (the OpenAPI spec) to Pact broker.
+# The schema already got tested in the e2e job.
 
 # name: Publish Pact OpenApi
 
